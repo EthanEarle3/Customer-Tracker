@@ -12,3 +12,7 @@ let customers = [
       purchases: ["Lime","Lettuce","Carrot"]
     }
     ]
+    customers.push({ name: "Tom Samson",
+      email: "TomSamsonGolfs@gmail.com",
+      purchases: ["Beans","Brocolli","Beetroot"]
+    })
