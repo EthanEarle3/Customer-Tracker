@@ -16,3 +16,4 @@ let customers = [
       email: "TomSamsonGolfs@gmail.com",
       purchases: ["Beans","Brocolli","Beetroot"]
     })
+    customers.shift()
