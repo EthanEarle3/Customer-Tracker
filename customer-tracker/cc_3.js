@@ -16,9 +16,13 @@ let customers = [
       email: "TomSamsonGolfs@gmail.com",
       purchases: ["Beans","Brocolli","Beetroot"]
     })
+
     customers.shift()
+
     customers[0].email = "Susan2323@Bullscollege.edu"
+
     customers[1].purchases.push("Onion")
+    
     console.log("Customer List:");
     customers.forEach(customer => {
       console.log(`Name: ${customer.name}, Email: ${customer.email}, Purchases: ${customer.purchases.join(", ")}`);
