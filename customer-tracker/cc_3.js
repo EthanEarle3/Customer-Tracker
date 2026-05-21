@@ -17,3 +17,4 @@ let customers = [
       purchases: ["Beans","Brocolli","Beetroot"]
     })
     customers.shift()
+    customers[0].email = "Susan2323@Bullscollege.edu"
